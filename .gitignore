@@ -1,2 +1,2 @@
-photo-id
-shippingList
+photo-id # subfolder where you keep all the photo id
+shippingList # shipping list and generated photo-id-list will be stored in this subfolder
