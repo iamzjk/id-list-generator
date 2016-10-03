@@ -14,3 +14,8 @@ excel表格需要包含columns：
 
 * 收件人
 * 运单号
+
+-----
+已知问题：那个mac automator 应用无法正常使用，路径指示有问题。
+
+请通过在终端输入`python idlist-gen.py`来使用本程序
