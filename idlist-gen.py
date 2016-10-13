@@ -94,7 +94,7 @@ for n in range(len(df_shipList)):
 #            missingID.append(id_1)
             im_1True = False
 #            idList.append(Paragraph("Photo ID not available", styles["Normal"]))
-            print id_1[11:-5] + '\t' + "正面" + ' ' + "身份证没有找到"
+            print id_1[11:-5] + '\t' + "身份证没有找到"
             missingN += 1
             
         if im_1True is True:
@@ -108,7 +108,7 @@ for n in range(len(df_shipList)):
                 im_2True = True
             except IOError:
                 im_2True = False
-                print id_1[11:-5] + '\t' + "背面" + ' ' + "身份证没有找到"
+                print id_1[11:-5] + '\t' + "身份证【背面】没有找到"
                 missingN += 1
             idList.append(PageBreak())
 print
